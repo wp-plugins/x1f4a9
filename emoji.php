@@ -2,7 +2,7 @@
 /*
 Plugin Name: 💩
 Description: Twitters Emoji for WordPress
-Version: 0.1
+Version: 0.1-20150208
 
 See https://github.com/twitter/twemoji for the source emoji
 */
