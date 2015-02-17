@@ -2,7 +2,7 @@
 /*
 Plugin Name: 💩
 Description: Twitters Emoji for WordPress
-Version: 0.3-20150216
+Version: 0.3-20150217
 
 See https://github.com/twitter/twemoji for the source emoji
 */
@@ -39,6 +39,7 @@ class Emoji {
 		) );
 
 		add_action( 'wp_print_styles', array( $this, 'print_styles' ) );
+		add_action( 'admin_print_styles', array( $this, 'print_styles' ) );
 
 		add_action( 'mce_external_plugins', array( $this, 'add_mce_plugin' ) );
 		add_action( 'wp_enqueue_editor',    array( $this, 'load_mce_script' ) );
